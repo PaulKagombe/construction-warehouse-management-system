@@ -13,8 +13,8 @@ Set environment variables (optional — defaults provided):
 
 ```powershell
 $env:DB_URL='jdbc:mysql://192.168.10.103:3306/construction_management'
-$env:DB_USER='warehouse_user'
-$env:DB_PASSWORD='warehouse123'
+$env:DB_USER= your_username
+$env:DB_PASSWORD=your_password
 ```
 
 Defaults are embedded in the code; environment variables override them.
