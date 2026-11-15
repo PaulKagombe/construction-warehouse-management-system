@@ -14,7 +14,7 @@ public class DBconnection {
     // Read configuration from environment variables with sensible defaults.
     private static final String URL = System.getenv().getOrDefault(
             "DB_URL",
-            "jdbc:mysql://192.168.10.103:3306/construction_management"
+            "jdbc:mysql://localhost:3306/construction_management"
     );
     private static final String USER = System.getenv().getOrDefault("DB_USER", "warehouse_user");
     private static final String PASSWORD = System.getenv().getOrDefault("DB_PASSWORD", "warehouse123");
